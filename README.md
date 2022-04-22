@@ -6,6 +6,7 @@ Professeur : Julien Lemaitre
 
 Ici le [Sujet](Sujet%20-%20TP1.pdf) ainsi que le [Compte-rendu](TP1_Traitement%20d'images.pdf)
 
+Ce projet a ete fait en python avec notamment l'utilisation d'opencv.
 
 # Objectif du travail
 ## Presentation
@@ -93,3 +94,9 @@ Celle-ci permet de resumer l'ensemble des etapes et evite a l'utilisateur de voi
 Interface
   <img src="Ress/Images/interface.jpg" />
 </p>
+
+Contributeurs
+Nihal OUHAOUADA 
+Pierre LACLAVERIE 
+Thibaud SIMON 
+Yann REYNAUD 
