@@ -4,9 +4,29 @@
 Hiver 2022
 Professeur : Julien Lemaitre
 
+Contributeurs
+- Nihal OUHAOUADA 
+- Pierre LACLAVERIE 
+- Thibaud SIMON 
+- Yann REYNAUD 
+
+
 Ici le [Sujet](Sujet%20-%20TP1.pdf) ainsi que le [Compte-rendu](TP1_Traitement%20d'images.pdf)
 
 Ce projet a ete fait en python avec notamment l'utilisation d'opencv.
+
+# Sommaire
+
+- [TNI-UAQC](#tni-uaqc)
+- [Sommaire](#sommaire)
+- [Objectif du travail](#objectif-du-travail)
+  - [Presentation](#presentation)
+  - [Mise en oeuvre](#mise-en-oeuvre)
+- [Implementation](#implementation)
+  - [Pretraitement](#pretraitement)
+  - [Traitement](#traitement)
+  - [Interface](#interface)
+
 
 # Objectif du travail
 ## Presentation
