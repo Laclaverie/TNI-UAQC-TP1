@@ -41,9 +41,10 @@ La difference en valeur absolue pernet d'avoir le residu pour avoir les changeme
 
 Ici un exemple d'image apres ces pre-traitements
 
-<p align="center">
-Pre-traitement
-  <img src="Ress/Images/pretraitement.jpg" />
+**Pre-traitement**
+
+<p align="center">  
+<img src="Ress/Images/pretraitement.jpg"/>
 </p>
 ## Traitement
 Pour extraire les informations qui nous interesse, on effectue :
@@ -55,8 +56,9 @@ Pour extraire les informations qui nous interesse, on effectue :
 
 Le thresholding adaptatif est un seuillage automatique permettant d'adapter le seuil en fonction de l'image .  La methode utilisee est le Mean-C car les elements du contours sont clairement definis. Pour un objet isole "trop petit" il sera renvoye sur le fond. Pour un "vrai" objet de taille assez grande, il sera correctement detecte et donc segmente.
 
+Apres **thresholding**:
+
 <p align="center">
-Apres thresholding
   <img src="Ress/Images/threshold.jpg" />
 </p>
 
@@ -65,22 +67,26 @@ ImclearBorder est une fonction matlab que nous avons code en python, elle permet
 
 L'ouverture morphologique permet de supprimer les petits elements presents presents sur l'image (non visible car aux alentours de 1-3 pixels de ) Les residus de taille plus petite que le noyau seront effaces lors de l'erosion, les elements restants seront dilates pour retrouver leur taille d'origine.
 
+**Ouverture Morphologique**
+
 <p align="center">
-Ouverture Morphologique
   <img src="Ress/Images/ouverture.jpg" />
 </p>
 
 Le bounding box permet de cerner les objets qui nous interesse pour  mesurer le taux de rangement.
 
+**Bounding Rect**
+
 <p align="center">
-Bounding Rect
   <img src="Ress/Images/bounding.jpg" />
 </p>
 
 Nous avons implente une methode de rectangle englobant qui permet de creer un nouveau rectangle qui englobe deux autres rectangles si ces derniers s'intersectent. Ceci est particulierement utile dans le cas ou plusieurs parties d'un objet ont ete detectes independamment.
 
+**Rectangles englobants**
+
 <p align="center">
-Rectangles englobants
+
   <img src="Ress/Images/bounding-rect.jpg" />
 </p>
 
@@ -90,8 +96,10 @@ Nous avons choisit de presenter notre travail a l'aide d'une interface graphique
 
 Celle-ci permet de resumer l'ensemble des etapes et evite a l'utilisateur de voir le code... 
 
+**Interface**
+
 <p align="center">
-Interface
+
   <img src="Ress/Images/interface.jpg" />
 </p>
 
